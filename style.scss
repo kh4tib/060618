@@ -54,6 +54,7 @@ $duration: 3s;
     0% {
         transform: rotateX(0deg) rotateY(0deg);
         opacity: 0;
+        border: solid 2px palevioletred;
     }
 
     50% {
@@ -65,5 +66,6 @@ $duration: 3s;
 
         transform: rotateX(90deg) rotateY(90deg);
         opacity:0;
+        border: solid 4px palevioletred;
     }
 }
